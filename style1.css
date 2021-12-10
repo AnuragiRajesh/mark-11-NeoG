@@ -1,0 +1,81 @@
+:root {
+    --primary-dark: #1f2937;
+    --primary-green: #6ee7b7;
+
+    
+}
+body {
+    background-color: var(--primary-dark);
+    color: var(--primary-green);
+    
+}
+
+
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.container {
+    margin-bottom: 26rem;
+
+}
+
+
+
+
+label {
+  font-weight: 500;
+  font-size: 1.5rem;
+  margin: auto;
+  display: block;
+  margin-top: 0.5rem;
+  width: 20%;
+
+}
+
+input {
+    border-radius: 5px;
+    padding: 0.5rem;
+    border: transparent;
+    font-size: large;
+    margin: 1rem 0;
+    display: block;
+    margin: auto;
+    margin-top: 0.5rem;
+    width: 20%;
+
+}
+
+
+
+#checknumber {
+    display: block;
+    background-color: transparent;
+    color: var(--primary-green);
+    border-color: var(--primary-green);
+    border-width: medium;
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin: auto;
+    border-radius: 0.4rem;
+    width: 8rem;
+    
+    height: 2.2rem;
+
+}
+
+#output-box {
+    text-align: center;
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+}
+.my-footer {
+    margin-top: 2rem;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.37rem;
+    color: var(--primary-green);
+}
